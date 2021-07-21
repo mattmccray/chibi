@@ -1,32 +1,30 @@
 <p align="center">
-
 <img src="https://raw.githubusercontent.com/mattmccray/chibi/master/docs/logo.svg">
-
 </p>
 
-<br><br>
-A really small CSS framework
-<br><br>
-
+<!-- <p align="center">
 <a href="https://github.com/mattmccray/chibi/issues"><img src="https://img.shields.io/github/issues/mattmccray/chibi.svg"></a>
+</p> -->
 
-</p>
+<p align="center">A little CSS framework &mdash; ちび</p>
 
 <br>
 
-Based on [Chota.css by Jenil Gogari](https://jenil.github.io/chota/)
-
 - ⚡️&nbsp; Super light-weight. <5kb (minified + gzipped).
 - ⛔️&nbsp; No preprocessor, just plug-n-play
-- 📐&nbsp; Magical 12 column [grid](https://jenil.github.io/chota/#grid)
+- 📐&nbsp; Flex based 12 column [grid](https://jenil.github.io/chota/#grid)
 - 🌈&nbsp; Easy to [extend](https://jenil.github.io/chota/#customizing) with CSS variables
 - 🎲&nbsp; Comes with a handful of [components](https://jenil.github.io/chota/#components) &amp; [utilities](https://jenil.github.io/chota/#utilities)
 - ✅&nbsp; Good Semantics
 - 🌜&nbsp; Automatic dark theme (Optional - via `auto-dark-theme` class)
 
+<small>***Chibi*** (ちび) means little in Japanese.</small> <small>Based on [Chota.css by Jenil Gogari](https://jenil.github.io/chota/)</small>
+
+
+
 <br>
 
-### Get started
+## Get started
 
 > (COMING SOON)
 

@@ -1,7 +1,7 @@
 {
   "name": "chibi",
   "version": "1.0.0",
-  "description": "A really small CSS framework",
+  "description": "A little CSS framework",
   "main": "dist/chibi.min.css",
   "scripts": {
     "start": "run-p docs watch",
