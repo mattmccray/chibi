@@ -21,3 +21,28 @@
 .tag+.tag {
   margin-left: 1rem;
 }
+
+.tag.primary {
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.tag.secondary {
+  color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
+.tag.error {
+  color: var(--color-error);
+  border-color: var(--color-error);
+}
+
+.tag.warning {
+  color: var(--color-warning);
+  border-color: var(--color-warning);
+}
+
+.tag.success {
+  color: var(--color-success);
+  border-color: var(--color-success);
+}

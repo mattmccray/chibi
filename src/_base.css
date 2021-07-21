@@ -1,28 +1,37 @@
 :root {
   --bg-color: #ffffff;
   --bg-secondary-color: #f3f3f6;
-  --color-primary: #14854F;
+  --color-primary: dodgerblue;
   --color-lightGrey: #d2d6dd;
   --color-grey: #747681;
   --color-darkGrey: #3f4144;
   --color-error: #d43939;
   --color-success: #28bd14;
-  --grid-maxWidth: 120rem;
-  --grid-gutter: 2rem;
-  --font-size: 1.6rem;
+  --color-warning: orange;
+  --color-highlight: yellow;
+  --font-color-inverted: #ffffff;
   --font-color: #333333;
+  --font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
   --font-family-sans: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next",
     "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif;
-  --font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
+  --font-size: 1.6rem;
+  --grid-gutter: 2rem;
+  --grid-maxWidth: 120rem;
+  --card-bg-color: var(--bg-color);
+  --card-shadow-color: var(--color-grey);
+  --input-bg-color: #FFF;
+  --input-color: var(--font-color);
 }
 
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  /* font-size: 10px; */
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  /* background-color: var(--bg-color); */
 }
 
 *, *:before, *:after {
@@ -45,6 +54,17 @@ html {
 *::-webkit-scrollbar-thumb {
   background: var(--color-lightGrey);
 }
+
+*::-moz-selection { /* Code for Firefox */
+  background: var(--color-primary);
+  color: var(--font-color-inverted);
+}
+
+*::selection {
+  background: var(--color-primary);
+  color: var(--font-color-inverted);
+}
+
 
 body {
   background-color: var(--bg-color);
@@ -125,6 +145,10 @@ hr {
   margin: 1rem 0;
 }
 
+mark {
+  background-color: var(--color-highlight);
+}
+
 table {
   width: 100%;
   border: none;
@@ -132,9 +156,15 @@ table {
   border-spacing: 0;
   text-align: left;
 }
-
-table.striped tr:nth-of-type(2n) {
+ 
+table.striped tr:nth-of-type(2n),
+tbody.striped tr:nth-of-type(2n) {
   background-color: var(--bg-secondary-color);
+}
+
+table.compact th, 
+table.compact td {
+  padding: 0.5rem 0.4rem;
 }
 
 td,

@@ -5,17 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Components</title>
     <link rel="stylesheet" href="../dist/chota.css" />
+    <link rel="stylesheet" href="./dark-theme.css" />
     <style>
-      .nav {
-        border: 1px solid red;
-      }
-
-      body.dark {
-        --bg-color: #000;
-        --bg-secondary-color: #131316;
-        --font-color: #f5f5f5;
-        --color-grey: #ccc;
-        --color-darkGrey: #777;
+      .nav:hover {
+        /* border: 1px dotted red; */
+        outline: 2px solid yellowgreen;
       }
     </style>
   </head>
@@ -175,6 +169,12 @@
           <span class="tag">Three</span>
           <span class="tag is-small">Small</span>
           <span class="tag is-large">Large</span>
+
+          <span class="tag primary">Primary</span>
+          <span class="tag secondary">Secondary</span>
+          <span class="tag error">Error</span>
+          <span class="tag warning">Warning</span>
+          <span class="tag success">Success</span>
         </p>
       </section>
       <section>
@@ -443,6 +443,15 @@
           <img src="https://icongr.am/feather/search.svg" />
         </button>
       </section>
+    
+    
+      <section>
+        <h1>Animation</h1>
+        <div>
+          <h4>.spin-animation</h4>
+          <img class="spin-animation" src="https://icongr.am/feather/file.svg?size=12" alt="icon" />
+        </div>
+        </section>
     </div>
     <p>
       <br />

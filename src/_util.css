@@ -1,4 +1,8 @@
 /* Colors */
+.bg-page {
+  background-color: var(--bg-color);
+}
+
 .bg-primary {
     background-color: var(--color-primary) !important;
 }
@@ -19,8 +23,16 @@
     background-color: var(--color-error) !important;
 }
 
+.bg-warning {
+  background-color: var(--color-warning) !important;
+}
+
 .bg-success {
     background-color: var(--color-success) !important;
+}
+
+.bg-highlight {
+  background-color: var(--color-highlight) !important;
 }
 
 .bd-primary {
@@ -43,8 +55,20 @@
     border: 1px solid var(--color-error) !important;
 }
 
+.bd-warning {
+  border: 1px solid var(--color-warning) !important;
+}
+
 .bd-success {
     border: 1px solid var(--color-success) !important;
+}
+
+.bd-highlight {
+  border: 1px solid var(--color-highlight) !important;
+}
+
+.bd-thick {
+  border-width: 3px;
 }
 
 .text-primary {
@@ -67,8 +91,20 @@
     color: var(--color-error) !important;
 }
 
+.text-warning {
+  color: var(--color-warning) !important;
+}
+
 .text-success {
     color: var(--color-success) !important;
+}
+
+.text-highlight {
+  color: var(--color-highlight) !important;
+}
+
+.text-inverted {
+  color: var(--font-color-inverted) !important;
 }
 
 .text-white {
@@ -112,6 +148,18 @@
     text-transform: capitalize;
 }
 
+.text-thin {
+  font-weight: 100;
+}
+
+.text-normal {
+  font-weight: normal;
+}
+
+.text-thick {
+  font-weight: 600;
+}
+
 .is-full-screen {
     width: 100%;
     min-height: 100vh;
@@ -119,6 +167,10 @@
 
 .is-full-width {
     width: 100% !important;
+}
+
+.is-full-height {
+    height: 100% !important;
 }
 
 .is-vertical-align {
@@ -154,6 +206,11 @@
     width: 100%;
 }
 
+.is-sticky {
+  position: sticky;
+  top: 0;
+}
+
 .is-paddingless {
     padding: 0 !important;
 }
@@ -167,7 +224,11 @@
 }
 
 .is-rounded {
-    border-radius: 100%;
+  border-radius: 0.4rem;
+}
+
+.is-round {
+  border-radius: 100%;
 }
 
 .clearfix {
@@ -179,6 +240,18 @@
 .is-hidden {
     display: none !important;
 }
+
+.is-bare {
+  appearance: unset;
+  list-style: none;
+}
+
+.flex-1 { flex: 1; }
+.flex-2 { flex: 2; }
+.flex-3 { flex: 3; }
+.flex-4 { flex: 4; }
+.flex-5 { flex: 5; }
+
 
 @media screen and (max-width: 599px) {
     .hide-xs {
@@ -207,5 +280,21 @@
 @media print {
     .hide-pr {
         display: none !important;
+    }
+}
+
+.spin-animation  {
+  animation-name: spin-animation;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+@keyframes spin-animation  {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
     }
 }

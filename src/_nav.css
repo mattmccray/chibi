@@ -4,7 +4,8 @@
     align-items: stretch;
 }
 
-.nav img {
+.nav img,
+.nav svg {
     max-height: 3rem;
 }
 
