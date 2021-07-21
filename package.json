@@ -19,13 +19,13 @@
   ],
   "author": "Matt McCray / Jenil Gogari",
   "license": "MIT",
-  "homepage": "https://jenil.github.io/chota",
+  "homepage": "https://github.com/mattmccray/chibi",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mattmccray/chota.git"
+    "url": "git+https://github.com/mattmccray/chibi.git"
   },
   "bugs": {
-    "url": "https://github.com/mattmccray/chota/issues"
+    "url": "https://github.com/mattmccray/chibi/issues"
   },
   "devDependencies": {
     "autoprefixer": "^9.6.1",

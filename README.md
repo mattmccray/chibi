@@ -1,54 +1,70 @@
 <p align="center">
-<img src="https://jenil.github.io/chota/logo.svg" />
+
+<svg width="605" height="211" viewBox="0 0 605 211" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M70.7714 210.218C58.4834 210.218 46.8674 207.242 35.9234 201.29C25.1714 195.146 16.5314 186.89 10.0034 176.522C3.47535 166.154 0.211353 154.538 0.211353 141.674C0.211353 128.234 3.37935 116.522 9.71535 106.538C16.2434 96.3623 24.7874 88.5863 35.3474 83.2103C46.0994 77.8343 57.6194 75.1463 69.9074 75.1463C81.6194 75.1463 92.1794 77.4503 101.587 82.0583C110.995 86.6663 118.291 92.7143 123.475 100.202C128.659 107.498 131.251 115.178 131.251 123.242C131.251 129.962 129.139 135.146 124.915 138.794C120.883 142.442 114.835 144.266 106.771 144.266C102.547 144.266 99.2834 143.498 96.9794 141.962C94.6754 140.426 92.2754 138.122 89.7794 135.05C87.4754 132.17 85.2674 130.058 83.1554 128.714C81.2354 127.178 78.4514 126.41 74.8034 126.41C69.6194 126.41 65.2034 128.234 61.5554 131.882C57.9074 135.338 56.0834 139.85 56.0834 145.418C56.0834 151.178 57.8114 155.786 61.2674 159.242C64.9154 162.698 69.4274 164.426 74.8034 164.426C78.2594 164.426 80.9474 163.946 82.8674 162.986C84.7874 162.026 86.8994 160.49 89.2034 158.378C91.8914 156.074 94.3874 154.442 96.6914 153.482C98.9954 152.33 102.355 151.754 106.771 151.754C114.643 151.754 120.691 153.866 124.915 158.09C129.139 162.314 131.251 167.21 131.251 172.778C131.251 179.306 128.659 185.45 123.475 191.21C118.483 196.97 111.379 201.578 102.163 205.034C92.9474 208.49 82.4834 210.218 70.7714 210.218ZM174.553 210.506C165.145 210.506 157.945 206.858 152.953 199.562C147.961 192.266 144.505 181.034 142.585 165.866C140.857 150.698 139.993 129.674 139.993 102.794C139.993 80.3303 140.569 62.7623 141.721 50.0903C143.065 37.4183 146.041 27.4343 150.649 20.1383C155.257 12.6503 162.457 8.90633 172.249 8.90633C180.697 8.90633 187.033 11.5943 191.257 16.9703C195.481 22.3463 198.169 29.0663 199.321 37.1303C200.473 45.1943 201.049 55.2743 201.049 67.3703V80.3303C204.889 78.4103 208.249 77.0663 211.129 76.2983C214.201 75.5303 218.713 75.1463 224.665 75.1463C237.721 75.1463 248.953 78.5063 258.361 85.2263C267.769 91.7543 274.873 100.586 279.673 111.722C284.665 122.858 287.161 135.242 287.161 148.874C287.161 166.538 285.241 181.13 281.401 192.65C277.753 203.978 270.457 209.642 259.513 209.642C251.833 209.642 246.073 207.914 242.233 204.458C238.585 201.002 236.185 196.298 235.033 190.346C234.073 184.394 233.593 176.234 233.593 165.866C233.593 154.538 232.345 145.802 229.849 139.658C227.545 133.514 223.417 130.442 217.465 130.442C211.513 130.442 207.193 133.61 204.505 139.946C202.009 146.09 200.665 154.73 200.473 165.866C200.281 176.234 199.609 184.49 198.457 190.634C197.497 196.778 195.097 201.674 191.257 205.322C187.609 208.778 182.041 210.506 174.553 210.506ZM335.126 70.8263C325.718 70.8263 317.75 67.4663 311.222 60.7463C304.694 53.8343 301.43 45.4823 301.43 35.6903C301.43 26.0903 304.694 17.9303 311.222 11.2103C317.75 4.29834 325.718 0.842335 335.126 0.842335C344.342 0.842335 352.214 4.29834 358.742 11.2103C365.462 17.9303 368.822 26.0903 368.822 35.6903C368.822 45.4823 365.462 53.8343 358.742 60.7463C352.214 67.4663 344.342 70.8263 335.126 70.8263ZM335.126 210.506C327.254 210.506 321.398 208.298 317.558 203.882C313.91 199.274 311.414 192.458 310.07 183.434C308.918 174.218 308.342 161.162 308.342 144.266C308.342 130.058 309.014 118.826 310.358 110.57C311.894 102.314 314.582 96.1703 318.422 92.1383C322.262 88.1063 327.83 86.0903 335.126 86.0903C342.998 86.0903 348.758 88.3943 352.406 93.0023C356.246 97.4183 358.742 104.234 359.894 113.45C361.238 122.474 361.91 135.434 361.91 152.33C361.91 166.538 361.142 177.77 359.606 186.026C358.262 194.282 355.67 200.426 351.83 204.458C347.99 208.49 342.422 210.506 335.126 210.506ZM465.93 210.506C430.986 210.506 408.426 199.85 398.25 178.538C388.266 157.034 383.274 135.242 383.274 113.162C383.274 96.8423 384.714 80.7143 387.594 64.7783C390.666 48.8423 395.562 35.4983 402.282 24.7463C409.002 13.9943 417.738 8.61834 428.49 8.61834C435.21 8.61834 440.97 10.7303 445.77 14.9543C450.57 19.1783 452.97 25.3223 452.97 33.3863C452.97 37.4183 452.586 41.4503 451.818 45.4823C451.05 49.5143 449.898 54.5063 448.362 60.4583C447.978 61.6103 447.21 64.4903 446.058 69.0983C445.098 73.7063 444.426 78.0263 444.042 82.0583C452.49 77.4503 462.09 75.1463 472.842 75.1463C483.594 75.1463 493.578 77.5463 502.794 82.3463C512.202 87.1463 519.786 94.5383 525.546 104.522C531.498 114.314 534.474 126.314 534.474 140.522C534.474 152.618 531.69 164.042 526.122 174.794C520.554 185.354 512.49 193.994 501.93 200.714C491.562 207.242 479.562 210.506 465.93 210.506ZM464.202 165.002C469.386 165.002 473.898 163.082 477.738 159.242C481.77 155.21 483.786 150.506 483.786 145.13C483.786 139.754 481.77 135.05 477.738 131.018C473.898 126.986 469.386 124.97 464.202 124.97C459.018 124.97 454.506 126.986 450.666 131.018C446.826 135.05 444.906 139.754 444.906 145.13C444.906 150.506 446.826 155.21 450.666 159.242C454.506 163.082 459.018 165.002 464.202 165.002ZM571.095 70.8263C561.687 70.8263 553.719 67.4663 547.191 60.7463C540.663 53.8343 537.399 45.4823 537.399 35.6903C537.399 26.0903 540.663 17.9303 547.191 11.2103C553.719 4.29834 561.687 0.842335 571.095 0.842335C580.311 0.842335 588.183 4.29834 594.711 11.2103C601.431 17.9303 604.791 26.0903 604.791 35.6903C604.791 45.4823 601.431 53.8343 594.711 60.7463C588.183 67.4663 580.311 70.8263 571.095 70.8263ZM571.095 210.506C563.223 210.506 557.367 208.298 553.527 203.882C549.879 199.274 547.383 192.458 546.039 183.434C544.887 174.218 544.311 161.162 544.311 144.266C544.311 130.058 544.983 118.826 546.327 110.57C547.863 102.314 550.551 96.1703 554.391 92.1383C558.231 88.1063 563.799 86.0903 571.095 86.0903C578.967 86.0903 584.727 88.3943 588.375 93.0023C592.215 97.4183 594.711 104.234 595.863 113.45C597.207 122.474 597.879 135.434 597.879 152.33C597.879 166.538 597.111 177.77 595.575 186.026C594.231 194.282 591.639 200.426 587.799 204.458C583.959 208.49 578.391 210.506 571.095 210.506Z" fill="url(#paint0_radial)"/>
+<defs>
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(552.289 210.506) rotate(175.054) scale(624.363 253.945)">
+<stop stop-color="#D031ED"/>
+<stop offset="1" stop-color="#2F80ED"/>
+</radialGradient>
+</defs>
+</svg>
+
 <br><br>
 A really small CSS framework
 <br><br>
-<img src="https://img.shields.io/npm/v/chota.svg" alt="">
-<a href="https://www.npmjs.com/package/chota"><img src="https://img.shields.io/npm/dt/chota.svg"></a>
-<a href="https://github.com/jenil/chota/issues"><img src="https://img.shields.io/github/issues/jenil/chota.svg"></a>
-<a href="https://bundlephobia.com/result?p=chota@latest"><img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/chota.svg"></a>
-<a href="https://github.com/troxler/awesome-css-frameworks"><img src="https://awesome.re/mentioned-badge.svg" alt="Mentioned in Awesome CSS Frameworks"/></a>
+
+<a href="https://github.com/mattmccray/chibi/issues"><img src="https://img.shields.io/github/issues/mattmccray/chibi.svg"></a>
 </p>
 
 <br>
 
+Based on [Chota.css by Jenil Gogari](https://jenil.github.io/chota/)
 
-- ⚡️&nbsp; Super light-weight. Just ~3kb (minified + gzipped).
+- ⚡️&nbsp; Super light-weight. <5kb (minified + gzipped).
 - ⛔️&nbsp; No preprocessor, just plug-n-play
 - 📐&nbsp; Magical 12 column [grid](https://jenil.github.io/chota/#grid)
 - 🌈&nbsp; Easy to [extend](https://jenil.github.io/chota/#customizing) with CSS variables
 - 🎲&nbsp; Comes with a handful of [components](https://jenil.github.io/chota/#components) &amp; [utilities](https://jenil.github.io/chota/#utilities)
 - ✅&nbsp; Good Semantics
-- 🤡&nbsp; Supports icons from [Icongram](https://icongr.am/)
+- 🌜&nbsp; Automatic dark theme (Optional - via `auto-dark-theme` class)
 
 <br>
 
 ### Get started
 
+> (COMING SOON)
+
 CDN:
 ```html
-<link rel="stylesheet" href="https://unpkg.com/chota">
+<link rel="stylesheet" href="https://unpkg.com/chibi">
 ```
 
 npm or yarn:
 ```bash
-npm install chota
+npm install chibi
 ```
 
-#### SASS support
-Chota is designed keeping in mind *ease-of-use* and *minimalism*, hence it doesn't use any preprocessor or complex build process. If you would still like to extend it further using SASS, head to [palmiak's fork](https://github.com/palmiak/chota).
+<!-- #### SASS support
+Chota is designed keeping in mind *ease-of-use* and *minimalism*, hence it doesn't use any preprocessor or complex build process. If you would still like to extend it further using SASS, head to [palmiak's fork](https://github.com/palmiak/chota). -->
 
 <br>
 
 ## Browsers support
 
-| <img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/edge.png" alt="IE / Edge" width="16px" height="16px" /></br>IE / Edge | <img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/firefox.png" alt="Firefox" width="16px" height="16px" /></br>Firefox | <img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/chrome.png" alt="Chrome" width="16px" height="16px" /></br>Chrome | <img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/safari.png" alt="Safari" width="16px" height="16px" /></br>Safari | <img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/opera.png" alt="Opera" width="16px" height="16px" /></br>Opera | <img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/safari-ios.png" alt="iOS Safari" width="16px" height="16px" /></br>iOS Safari | <img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/chrome-android.png" alt="Chrome for Android" width="16px" height="16px" /></br>Chrome for Android |
+| <img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/edge.png" alt="IE / Edge" width="16px" height="16px" /></br>Edge | <img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/firefox.png" alt="Firefox" width="16px" height="16px" /></br>Firefox | <img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/chrome.png" alt="Chrome" width="16px" height="16px" /></br>Chrome | <img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/safari.png" alt="Safari" width="16px" height="16px" /></br>Safari | <img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/opera.png" alt="Opera" width="16px" height="16px" /></br>Opera | <img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/safari-ios.png" alt="iOS Safari" width="16px" height="16px" /></br>iOS Safari | <img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/chrome-android.png" alt="Chrome for Android" width="16px" height="16px" /></br>Chrome for Android |
 | --------- | --------- | --------- | --------- | --------- | --------- | --------- |
 | Edge 16+| last 2 versions| last 2 versions| last 2 versions| last 2 versions| last 2 versions| last 2 versions
 ---
 
-## Contributing
-Welcome! Please see our [contributing guidelines](https://github.com/jenil/chota/blob/master/.github/CONTRIBUTING.md).
+<!-- ## Contributing
+Welcome! Please see our [contributing guidelines](https://github.com/jenil/chota/blob/master/.github/CONTRIBUTING.md). -->
 
 ## License
+
+<strong>chibi.css</strong>
+&copy; Matthew McCray 2020-present. Code released under the [MIT license](https://github.com/jenil/chota/blob/master/LICENSE).
+
+
+<strong>Chota</strong>
 &copy; Jenil Gogari 2017-present. Code released under the [MIT license](https://github.com/jenil/chota/blob/master/LICENSE).
