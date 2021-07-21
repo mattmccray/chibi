@@ -1,13 +1,13 @@
 {
-  "name": "chota",
-  "version": "0.8.0",
+  "name": "chibi",
+  "version": "1.0.0",
   "description": "A really small CSS framework",
-  "main": "dist/chota.min.css",
+  "main": "dist/chibi.min.css",
   "scripts": {
     "start": "run-p docs watch",
     "docs": "jekyll s -s docs",
-    "build": "rimraf dist/* && yarn postcss &&  cross-env NODE_ENV=production yarn postcss --ext .min.css && gzip -c dist/chota.min.css  | wc -c | xargs echo 'Size:'",
-    "postcss": "postcss ./src/chota.css -d dist/",
+    "build": "rimraf dist/* && yarn postcss &&  cross-env NODE_ENV=production yarn postcss --ext .min.css && gzip -c dist/chibi.min.css  | wc -c | xargs echo 'Size:'",
+    "postcss": "postcss ./src/chibi.css -d dist/",
     "watch": "cross-env NODE_ENV=development yarn postcss -w",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "yarn build"
@@ -17,15 +17,15 @@
     "minimal",
     "web"
   ],
-  "author": "Jenil Gogari",
+  "author": "Matt McCray / Jenil Gogari",
   "license": "MIT",
   "homepage": "https://jenil.github.io/chota",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jenil/chota.git"
+    "url": "git+https://github.com/mattmccray/chota.git"
   },
   "bugs": {
-    "url": "https://github.com/jenil/chota/issues"
+    "url": "https://github.com/mattmccray/chota/issues"
   },
   "devDependencies": {
     "autoprefixer": "^9.6.1",

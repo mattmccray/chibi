@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Components</title>
-    <link rel="stylesheet" href="../dist/chota.css" />
+    <link rel="stylesheet" href="../dist/chibi.css" />
     <link rel="stylesheet" href="./dark-theme.css" />
     <style>
       .nav:hover {
@@ -15,12 +15,25 @@
   </head>
 
   <body>
+    <div class="is-sticky bg-page">
+    <div id="top" class="container">
+      <header role="banner" style="z-index:10;">
+        <h1 class="pull-right" style="margin: 0;">
+          <a href="javascript:void(0)" onclick="switchMode(this)">☀️</a>
+        </h1>
+        <h1>Chibi CSS</h1>
+        <div class="clearfix"></div>
+        <p>A small CSS framework. (<a href="./index.html">Elements</a>)</p>
+      </header>
+    </div>
+  </div>
+
+
+
     <div class="container">
-      <h1 class="pull-right" style="margin: 0;">
-        <a href="javascript:void(0)" onclick="switchMode(this)">☀️</a>
-      </h1>
       <h1>Nav</h1>
     </div>
+
     <div class="clearfix"></div>
     <nav class="nav">
       <div class="container">

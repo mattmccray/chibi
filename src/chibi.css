@@ -1,17 +1,13 @@
-/*! 
-  chota.css v0.8.1 | MIT License | github.com/jenil/chota 
-  (updates by Matt McCray)
-*/
+/*!chibi.css v1.0.0 | MIT License | github.com/mattmccray/chota 
+  based on: chota.css v0.8.0 | MIT License | github.com/jenil/chota */
 @import "_base.css";
 @import "_dark.css";
 @import "_grid.css";
 @import "_form.css";
 @import "_buttons.css";
-
 @import "_nav.css";
 @import "_card.css";
 @import "_tab.css";
 @import "_tag.css";
 @import "_dropdown.css";
-
 @import "_util.css";
