@@ -2,6 +2,7 @@
   --bg-color: #ffffff;
   --bg-secondary-color: #f3f3f6;
   --color-primary: dodgerblue;
+  --color-primary-contrast: #ffffff;
   --color-lightGrey: #d2d6dd;
   --color-grey: #747681;
   --color-darkGrey: #3f4144;
@@ -9,7 +10,6 @@
   --color-success: #28bd14;
   --color-warning: orange;
   --color-highlight: yellow;
-  --font-color-inverted: #ffffff;
   --font-color: #333333;
   --font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
   --font-family-sans: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next",
@@ -57,12 +57,12 @@ html {
 
 *::-moz-selection { /* Code for Firefox */
   background: var(--color-primary);
-  color: var(--font-color-inverted);
+  color: var(--color-primary-contrast);
 }
 
 *::selection {
   background: var(--color-primary);
-  color: var(--font-color-inverted);
+  color: var(--color-primary-contrast);
 }
 
 

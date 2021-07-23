@@ -103,8 +103,8 @@
   color: var(--color-highlight) !important;
 }
 
-.text-inverted {
-  color: var(--font-color-inverted) !important;
+.text-primary-contrast {
+  color: var(--color-primary-contrast) !important;
 }
 
 .text-white {

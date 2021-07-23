@@ -57,7 +57,7 @@ button:disabled:hover {
 .button.success,
 .button.warning,
 [type="submit"] {
-  color: var(--font-color-inverted);
+  color: var(--color-primary-contrast);
   z-index: 1; /* hightlight from other button's border when grouped */
   background-color: #000;
   background-color: var(--color-primary);
