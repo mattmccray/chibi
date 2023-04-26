@@ -19,6 +19,7 @@ fieldset.clear {
   padding: 0;
   border-radius: 0;
   background-color: inherit;
+  border-color: transparent;
 }
 
 fieldset.labels-left {

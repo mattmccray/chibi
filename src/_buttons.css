@@ -74,6 +74,10 @@ button:disabled:hover {
   background-color: var(--color-darkGrey);
 }
 
+.button.light {
+  background-color: var(--color-lightGrey);
+}
+
 .button.error {
   background-color: var(--color-error);
 }
