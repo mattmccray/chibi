@@ -11,7 +11,10 @@ fieldset {
 
 fieldset.borderless {
   border: none;
-  padding: 0;
+}
+
+fieldset.labels-left {
+  --label-width: 20rem;
 }
 
 fieldset.labels-left p {
@@ -22,7 +25,6 @@ fieldset.labels-left p {
 }
 
 fieldset.labels-left p label {
-  --label-width: 20rem;
   width: var(--label-width);
   margin-right: 1rem;
 }

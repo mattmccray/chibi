@@ -22,6 +22,7 @@
   --font-family-sans: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next",
     "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif;
+  --font-family-serif: Georgia, "Times New Roman", Times, serif;
   --font-size: 1.6rem;
   --grid-gutter: 2rem;
   --grid-maxWidth: 120rem;
