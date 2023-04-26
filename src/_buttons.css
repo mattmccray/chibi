@@ -169,8 +169,12 @@ button:disabled:hover {
   display: flex;
 }
 
-.grouped>*:not(:last-child) {
+/* .grouped>*:not(:last-child) {
   margin-right: 1.6rem;
+} */
+
+.grouped>*:not(:first-child) {
+  margin-left: 1.6rem;
 }
 
 .grouped.gapless>* {
@@ -194,8 +198,12 @@ button:disabled:hover {
   flex-direction: column;
 }
 
-.grouped-vertical>*:not(:last-child) {
-  margin-right: 16px;
+/* .grouped-vertical>*:not(:last-child) {
+  margin: 0 0 1.6rem 0 !important;
+} */
+
+.grouped-vertical>*:not(:first-child) {
+  margin: 1.6rem 0 0 0 !important;
 }
 
 .grouped-vertical.gapless>* {
