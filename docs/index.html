@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <title>chota - A micro CSS framework</title>
+  <title>chibi - A micro CSS framework</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://unpkg.com/chota">
   <!-- for dev -->
@@ -27,7 +27,7 @@
         <a href="#features">features</a>
         <a href="#start">start</a>
         <a href="#docs">docs</a>
-        <a href="https://github.com/jenil/chota">GitHub</a>
+        <a href="https://github.com/mattmccray/chibi">GitHub</a>
         <a href="javascript:void(0)" id="theme-switch" onclick="switchMode(this)">☀️</a>
       </nav>
     </div>
@@ -48,16 +48,16 @@
 
     <section id="start">
       <h2>Getting Started</h2>
-      <p>All you need is 1 CSS file, <code>chota.css</code> to be included in your webpage.</p>
+      <p>All you need is 1 CSS file, <code>chibi.css</code> to be included in your webpage.</p>
       <br>
       <p>Link this CSS in your HTML:</p>
       {% highlight html %}<link rel="stylesheet" href="https://unpkg.com/chota@latest">{% endhighlight %}
       <br>
       <p>You can get the latest release from GitHub</p>
-      <p><a href="https://github.com/jenil/chota/archive/master.zip" class="button outline primary">Download .zip</a></p>
+      <p><a href="https://github.com/jenil/chibi/archive/master.zip" class="button outline primary">Download .zip</a></p>
       <br>
       <p>Install it from <code>npm</code> or <code>yarn</code></p>
-      {% highlight bash %}npm install chota{% endhighlight %}
+      {% highlight bash %}npm install chibi{% endhighlight %}
     </section>
 
     <section id="docs">
@@ -74,18 +74,18 @@
       </header>
       <br>
       <p>
-        Chota is <em>dead</em> simple to use. It doesn't require learning a lot of class names like other frameworks. It applies a few basic styles to the HTML following the <a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank">HTML Semantics</a>.
+        Chibi is <em>dead</em> simple to use. It doesn't require learning a lot of class names like other frameworks. It applies a few basic styles to the HTML following the <a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank">HTML Semantics</a>.
       </p>
-      <p>Here is a <a href="https://cdn.rawgit.com/jenil/chota/master/test/index.html">demo</a> of the basic HTML elements. A few addons that Chota provides out-of-the-box for some elements are:</p>
+      <p>Here is a <a href="https://cdn.rawgit.com/mattmccray/chibi/master/test/index.html">demo</a> of the basic HTML elements. A few addons that Chota provides out-of-the-box for some elements are:</p>
       <ul>
-        <li><a href="https://cdn.rawgit.com/jenil/chota/master/test/index.html#text__tables">Striped tabled</a></li>
-        <li><a href="https://cdn.rawgit.com/jenil/chota/master/test/index.html#forms__input">Input states</a></li>
-        <li><a href="https://cdn.rawgit.com/jenil/chota/master/test/index.html#forms__input">Horizontal input alignment</a> by just wrapping them with <code>grouped</code> class</li>
+        <li><a href="https://cdn.rawgit.com/mattmccray/chibi/master/test/index.html#text__tables">Striped tabled</a></li>
+        <li><a href="https://cdn.rawgit.com/mattmccray/chibi/master/test/index.html#forms__input">Input states</a></li>
+        <li><a href="https://cdn.rawgit.com/mattmccray/chibi/master/test/index.html#forms__input">Horizontal input alignment</a> by just wrapping them with <code>grouped</code> class</li>
         <li><a href="#icons">Icons</a></li>
       </ul>
       <br>
       <h3 id="customizing">Customizing</h3>
-      <p>Chota comes with a basic set of <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables" target="_blank">CSS variables</a>:</p>
+      <p>Chibi comes with a basic set of <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables" target="_blank">CSS variables</a>:</p>
 {% highlight css %}
 :root {
   --bg-color: #ffffff;
@@ -105,9 +105,9 @@
 }
 {% endhighlight %}
     <br>
-    <p>To override the variables, just add them to your <code>:root</code> selector after importing <code>chota.css</code></p>
+    <p>To override the variables, just add them to your <code>:root</code> selector after importing <code>chibi.css</code></p>
 {% highlight css %}
-@import url(chota.css)
+@import url(chibi.css)
 
 :root {
   --color-primary: #da1d50; /* brand color */
@@ -191,19 +191,10 @@
 
     function switchMode(el) {
       const bodyClass = document.body.classList;
-      bodyClass.contains("dark")
+      bodyClass.contains("light")
         ? ((el.innerHTML = "☀️"), bodyClass.remove("dark"))
-        : ((el.innerHTML = "🌙"), bodyClass.add("dark"));
+        : ((el.innerHTML = "🌙"), bodyClass.add("light"));
     }
-  </script>
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-91125324-3', 'auto');
-    ga('send', 'pageview');
   </script>
 </body>
 

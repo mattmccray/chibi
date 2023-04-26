@@ -1,10 +1,34 @@
+details summary {
+  /* padding: 1rem .6rem; */
+  padding: 1rem 2.5rem;
+  padding-left: 3.5rem;
+  list-style: none;
+  /* list-style-position: outside; */
+  cursor: pointer;
+
+  background: transparent no-repeat;
+  background-size: 1ex;
+  background-origin: content-box;
+  background-position: -2rem 50%;
+  background-image: url('data:image/svg+xml;utf8,<svg width="46" height="64" viewBox="0 0 46 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.32397 62L42.324 32L2.32397 2" stroke="dimgrey" stroke-width="4" stroke-linecap="round"/></svg>');
+}
+
+details[open] summary {
+  background-size: 1.3ex;
+  background-image: url('data:image/svg+xml;utf8,<svg width="65" height="46" viewBox="0 0 65 46" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.53967 2L32.5397 42L62.5397 2" stroke="dimgrey" stroke-width="6" stroke-linecap="round" /></svg>');
+}
+
 details.dropdown {
   position: relative;
   display: inline-block;
 }
 
-details.dropdown > :last-child {
+details.dropdown> :last-child {
   position: absolute;
   left: 0;
   white-space: nowrap;
+  padding: 1rem 2rem;
+  border-radius: .6rem;
+  background: var(--card-bg-color);
+  box-shadow: 0 1px 3px var(--card-shadow-color);
 }

@@ -1,5 +1,5 @@
 # Contributing Guidelines
-Thanks for wanting to help out with Chota! We appreciate it very much. We decided to outline a couple of things, in order to make your contributing process as smooth as possible.
+Thanks for wanting to help out with Chibi! We appreciate it very much. We decided to outline a couple of things, in order to make your contributing process as smooth as possible.
 
 **Steps**
 1. [Find an Issue](#find-an-issue)
@@ -8,10 +8,10 @@ Thanks for wanting to help out with Chota! We appreciate it very much. We decide
 4. [Relax](#relax)
 
 ## Find an Issue
-Whether you notice the problem by yourself, or found an open issue on our [issue tracker](https://github.com/jenil/chota/issues), it's nice to know that you've got our backs.
+Whether you notice the problem by yourself, or found an open issue on our [issue tracker](https://github.com/mattmccray/chibi/issues), it's nice to know that you've got our backs.
 
 **New Issues**
-- If you plan on fixing something you found yourself, **please [open a new issue](https://github.com/jenil/chota/issues/new)** before working on it, so we can discuss the solution together.
+- If you plan on fixing something you found yourself, **please [open a new issue](https://github.com/mattmccray/chibi/issues/new)** before working on it, so we can discuss the solution together.
 - When opening an issue, please include the browser and its version, operating system, and any other helpful info (such as a screenshot).
 - We may see the issue and not get back to you. That doesn't mean that we object to the issue you raised.
 
@@ -24,7 +24,7 @@ Whether you notice the problem by yourself, or found an open issue on our [issue
 
 ## Open a Pull Request
 > If you're new to contributing to open source, see <http://makeapullrequest.com/>.
-0. When you're happy with your changes, run `yarn build` or `npm run build`. This will update `/dist/chota.min.css` to reflect any changes you made.
+0. When you're happy with your changes, run `yarn build` or `npm run build`. This will update `/dist/chibi.min.css` to reflect any changes you made.
 1. Open a new pull request, and include
   **a)** a short description of the changes you made, and
   **b)** a reference to the related issue (just "fixes #45" is fine).

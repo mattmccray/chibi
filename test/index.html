@@ -5,7 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Elements</title>
     <link rel="stylesheet" href="../dist/chibi.css" />
-    <link rel="stylesheet" href="./dark-theme.css" />
+    <!-- <link rel="stylesheet" href="./dark-theme.css" /> -->
+    <script>
+      function updateAccentColor(e) {
+        const accentColor = e.target.value;
+        document.documentElement.style.setProperty(
+          "--color-primary",
+          accentColor
+        );
+      }
+      function switchMode(el) {
+        const bodyClass = document.body.classList;
+        bodyClass.contains("light")
+          ? ((el.innerHTML = "☀️"), bodyClass.remove("light"))
+          : ((el.innerHTML = "🌙"), bodyClass.add("light"));
+      }
+    </script>
   </head>
 
   <body>
@@ -574,7 +589,7 @@ P R E F O R M A T T E D T E X T
                   placeholder="Enter a Number"
                 />
               </p>
-              <p>
+              <p class="error">
                 <label for="input__text3" class="error">Error</label>
                 <input
                   id="input__text3"
@@ -712,8 +727,8 @@ P R E F O R M A T T E D T E X T
               </ul>
             </fieldset>
             <p><a href="#top">[Top]</a></p>
-            <fieldset id="forms__textareas">
-              <legend>Textareas</legend>
+            <fieldset id="forms__textareas" class="borderless">
+              <legend>Textareas <small>(borderless fieldset)</small></legend>
               <p>
                 <label for="textarea">Textarea</label>
                 <textarea
@@ -725,11 +740,12 @@ P R E F O R M A T T E D T E X T
               </p>
             </fieldset>
             <p><a href="#top">[Top]</a></p>
-            <fieldset id="forms__html5">
+            
+            <fieldset id="forms__html5" class="labels-left">
               <legend>HTML5 inputs</legend>
               <p>
                 <label for="ic">Color input</label>
-                <input type="color" id="ic" value="#000000" />
+                <input type="color" id="ic" value="#212AFB" onInput="updateAccentColor(event)" />
               </p>
               <p>
                 <label for="in">Number input</label>
@@ -762,6 +778,18 @@ P R E F O R M A T T E D T E X T
                   id="idtl"
                   value="1970-01-01T00:00"
                 />
+              </p>
+              <p class="grouped">
+                <label for="input__texts">Search</label>
+                <input
+                  type="search"
+                  name="input__texts"
+                  id="input__texts"
+                  placeholder="Search"
+                />
+                <button class="button icon-only">
+                  <img src="https://icongr.am/feather/search.svg?size=16" />
+                </button>
               </p>
             </fieldset>
             <p><a href="#top">[Top]</a></p>
@@ -820,6 +848,6 @@ P R E F O R M A T T E D T E X T
         </section>
       </main>
     </div>
-    <script src="../docs/main.js"></script>
+    <!-- <script src="../docs/main.js"></script> -->
   </body>
 </html>

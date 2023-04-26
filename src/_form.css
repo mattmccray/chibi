@@ -5,12 +5,42 @@ input, select, textarea {
 
 fieldset {
   padding: 0.5rem 2rem;
+  border-radius: 1rem;
+  border-color: var(--color-lightGrey);
+}
+
+fieldset.borderless {
+  border: none;
+  padding: 0;
+}
+
+fieldset.labels-left p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+fieldset.labels-left p label {
+  --label-width: 20rem;
+  width: var(--label-width);
+  margin-right: 1rem;
+}
+
+fieldset p:focus-within label {
+  color: var(--color-primary);
 }
 
 legend {
   text-transform: uppercase;
   font-size: 0.8em;
   letter-spacing: 0.1rem;
+  padding: 0 1rem;
+  margin-left: -1rem;
+}
+
+legend small {
+  color: var(--color-darkGrey) !important;
 }
 
 input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="color"]):not([type="button"]):not([type="reset"]),
@@ -22,25 +52,47 @@ textarea[type="text"] {
   border-radius: 4px;
   border: 1px solid var(--color-lightGrey);
   font-size: 1em;
-  transition: all 0.2s ease-in-out;
+  /* transition: all 0.2s ease-in-out; */
   display: block;
   width: 100%;
 }
 
-input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="color"]):not([type="button"]):not([type="reset"]):not(:disabled):hover,
+input:disabled:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="color"]):not([type="button"]):not([type="reset"]),
+select:disabled,
+textarea:disabled {
+  border-color: var(--input-bg-color);
+}
+
+input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="color"]):not([type="button"]):not([type="reset"]),
+select,
+textarea,
+textarea[type="text"] {
+  font-family: inherit;
+  padding: 0.8rem 1rem;
+  border-radius: 4px;
+  border: 1px solid var(--color-lightGrey);
+  font-size: 1em;
+  /* transition: all 0.2s ease-in-out; */
+  display: block;
+  width: 100%;
+}
+
+/* input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="color"]):not([type="button"]):not([type="reset"]):not(:disabled):hover,
 select:hover,
 textarea:hover,
 textarea[type="text"]:hover {
   border-color: var(--color-grey);
 }
 
+*/
 input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="color"]):not([type="button"]):not([type="reset"]):focus,
 select:focus,
 textarea:focus,
 textarea[type="text"]:focus {
   outline: none;
-  border-color: var(--color-primary) !important;
-  box-shadow: 0 0 1px var(--color-primary) !important;
+  /* border-color: var(--color-primary) !important; */
+  /* box-shadow: 0 0 0px 1px var(--bg-color),
+    0 0 0px 3px var(--color-primary); */
 }
 
 input.error:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="color"]):not([type="button"]):not([type="reset"]),
@@ -58,11 +110,22 @@ select {
   background: var(--input-bg-color) no-repeat 100%;
   background-size: 1ex;
   background-origin: content-box;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='60' height='40' fill='%23555'><polygon points='0,0 60,0 30,40'/></svg>");
+  stroke: var(--input-color);
+  fill: var(--input-color);
+  background-image: url('data:image/svg+xml;utf8,<svg width="65" height="46" viewBox="0 0 65 46" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.53967 2L32.5397 42L62.5397 2" stroke="dimgrey" stroke-width="6" stroke-linecap="round" /></svg>');
 }
+
 
 [type="checkbox"],
 [type="radio"] {
   width: 1.6rem;
   height: 1.6rem;
+}
+
+label.error {
+  color: var(--color-error) !important;
+}
+
+label.success {
+  color: var(--color-success) !important;
 }

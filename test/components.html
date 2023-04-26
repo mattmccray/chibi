@@ -9,9 +9,24 @@
     <style>
       .nav:hover {
         /* border: 1px dotted red; */
-        outline: 2px solid yellowgreen;
+        /* outline: 2px solid yellowgreen; */
       }
     </style>
+        <script>
+      function updateAccentColor(e) {
+        const accentColor = e.target.value;
+        document.documentElement.style.setProperty(
+          "--color-primary",
+          accentColor
+        );
+      }
+      function switchMode(el) {
+        const bodyClass = document.body.classList;
+        bodyClass.contains("light")
+          ? ((el.innerHTML = "☀️"), bodyClass.remove("light"))
+          : ((el.innerHTML = "🌙"), bodyClass.add("light"));
+      }
+    </script>
   </head>
 
   <body>
@@ -139,6 +154,7 @@
         </div>
       </section>
       <section>
+        
         <h1>Card</h1>
         <div class="row is-center">
           <div class="col-4">
@@ -174,6 +190,33 @@
           </div>
         </div>
       </section>
+
+            <section>
+        <h2>Details</h2>
+        <div>
+          <details>
+            <summary>More Details</summary>
+            <diV>
+              <p>I'm expandable</p>
+              <p>Nice, right?</p>
+            </diV>
+          </details>
+        </div>
+      </section>
+
+      <section>
+        <h2>Dropdown</h2>
+        <div>
+          <details class="dropdown">
+            <summary>Dropdown</summary>
+            <diV>
+              <p>I'm a dropdown</p>
+              <p>Nice, right?</p>
+            </diV>
+          </details>
+        </div>
+      </section>
+
       <section>
         <h1>Tag</h1>
         <p>
@@ -432,22 +475,22 @@
       <section>
         <h1>Icons</h1>
         <button type="button" class="button primary icon">
-          New file
           <img
-            src="https://icongr.am/feather/file.svg?size=16&color=ffffff"
-            alt="icon"
+          src="https://icongr.am/feather/file.svg?size=16&color=ffffff"
+          alt="icon"
           />
+          New file
         </button>
         <button type="button" class="button icon">
-          New file
           <img src="https://icongr.am/feather/file.svg?size=12" alt="icon" />
+          New file
         </button>
         <button type="button" class="button dark icon">
-          New file
           <img
-            src="https://icongr.am/feather/file.svg?size=32&color=ffffff"
-            alt="icon"
+          src="https://icongr.am/feather/file.svg?size=32&color=ffffff"
+          alt="icon"
           />
+          New file
         </button>
         <button class="button icon-only">
           <img src="https://icongr.am/feather/search.svg?size=16" />
@@ -469,6 +512,5 @@
     <p>
       <br />
     </p>
-    <script src="../docs/main.js"></script>
   </body>
 </html>

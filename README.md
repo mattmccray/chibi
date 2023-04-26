@@ -10,13 +10,13 @@
 
 <br>
 
-- ⚡️&nbsp; Super light-weight. <5kb (minified + gzipped).
+- ⚡️&nbsp; Super light-weight.
 - ⛔️&nbsp; No preprocessor, just plug-n-play
-- 📐&nbsp; Flex based 12 column [grid](https://jenil.github.io/chota/#grid)
-- 🌈&nbsp; Easy to [extend](https://jenil.github.io/chota/#customizing) with CSS variables
-- 🎲&nbsp; Comes with a handful of [components](https://jenil.github.io/chota/#components) &amp; [utilities](https://jenil.github.io/chota/#utilities)
+- 📐&nbsp; Flex based 12 column grid
+- 🌈&nbsp; Easy to extend with CSS variables
+- 🎲&nbsp; Comes with a handful of components &amp; utilities
 - ✅&nbsp; Good Semantics
-- 🌜&nbsp; Automatic dark theme (Optional - via `auto-dark-theme` class)
+- 🌜&nbsp; Automatic light/dark theme
 
 <small>***Chibi*** (ちび) means little in Japanese.</small> <small>Based on [Chota.css by Jenil Gogari](https://jenil.github.io/chota/)</small>
 
@@ -35,11 +35,8 @@ CDN:
 
 npm or yarn:
 ```bash
-npm install chibi
+npm install mattmccray/chibi
 ```
-
-<!-- #### SASS support
-Chota is designed keeping in mind *ease-of-use* and *minimalism*, hence it doesn't use any preprocessor or complex build process. If you would still like to extend it further using SASS, head to [palmiak's fork](https://github.com/palmiak/chota). -->
 
 <br>
 
