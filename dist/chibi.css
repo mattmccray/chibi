@@ -26,7 +26,7 @@
     "Droid Sans", "Helvetica Neue", sans-serif;
   --font-family-serif: Georgia, "Times New Roman", Times, serif;
   --font-size: 1.6rem;
-  --grid-gutter: 2rem;
+  --grid-gutter: 1.6rem;
   --grid-maxWidth: 120rem;
 }
 html {
@@ -557,11 +557,16 @@ input, select, textarea {
 fieldset {
   padding: 0.5rem 2rem;
   border-radius: 1rem;
-  border-color: var(--color-lightGrey);
+  border-color: var(--bg-secondary-color);
+  background-color: var(--bg-secondary-color);
 }
-fieldset.borderless {
+fieldset input,
+fieldset textarea {
+  max-width: -webkit-fill-available;
+}
+/* fieldset.borderless {
   border: none;
-}
+} */
 fieldset.labels-left {
   --label-width: 20rem;
 }
@@ -582,7 +587,12 @@ fieldset.labels-left p {
 }
 fieldset.labels-left p label {
   width: var(--label-width);
-  margin-right: 1rem;
+  min-width: var(--label-width);
+  margin-right: 1.6rem;
+}
+fieldset.labels-left.align-right p label {
+  text-align: right;
+  padding-right: 1rem;
 }
 fieldset.labels-left p ruby {
   display: -webkit-box;
@@ -600,12 +610,13 @@ fieldset.labels-left p ruby {
 fieldset p:focus-within label {
   color: var(--color-primary);
 }
-legend {
+fieldset legend {
   text-transform: uppercase;
-  font-size: 0.8em;
   letter-spacing: 0.1rem;
   padding: 0 1rem;
   margin-left: -1rem;
+  color: var(--color-grey);
+  font-size: 1.4rem;
 }
 legend small {
   color: var(--color-darkGrey) !important;
@@ -670,6 +681,9 @@ textarea.success {
 }
 select {
   -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  /* -webkit-appearance: none; */
   background: var(--input-bg-color) no-repeat 100%;
   background-size: 0.8ex;
   background-origin: content-box;
@@ -871,7 +885,7 @@ button:disabled:hover {
   display: flex;
 }
 .grouped>*:not(:last-child) {
-  margin-right: 16px;
+  margin-right: 1.6rem;
 }
 .grouped.gapless>* {
   margin: 0 0 0 -1px !important;
@@ -908,6 +922,11 @@ button:disabled:hover {
 .grouped-vertical.gapless>*:last-child {
   border-bottom-left-radius: 4px !important;
   border-bottom-right-radius: 4px !important;
+}
+.grouped.evenly>* {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 .nav {
     display: -webkit-box;

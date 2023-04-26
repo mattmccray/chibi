@@ -24,7 +24,7 @@
     "Droid Sans", "Helvetica Neue", sans-serif;
   --font-family-serif: Georgia, "Times New Roman", Times, serif;
   --font-size: 1.6rem;
-  --grid-gutter: 2rem;
+  --grid-gutter: 1.6rem;
   --grid-maxWidth: 120rem;
 }
 

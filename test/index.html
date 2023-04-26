@@ -21,6 +21,7 @@
           : ((el.innerHTML = "🌙"), bodyClass.add("light"));
       }
     </script>
+    <style>p:has(a[href="#top"]) { text-align:right; margin-bottom:2rem;}</style>
   </head>
 
   <body>
@@ -549,22 +550,28 @@ P R E F O R M A T T E D T E X T
                   placeholder="Type your Password"
                 />
               </p>
-              <p>
-                <label for="input__webaddress">Web Address</label>
-                <input
-                  id="input__webaddress"
-                  type="url"
-                  placeholder="http://yoursite.com"
-                />
-              </p>
-              <p>
-                <label for="input__emailaddress">Email Address</label>
-                <input
-                  id="input__emailaddress"
-                  type="email"
-                  placeholder="name@email.com"
-                />
-              </p>
+              <div class="row">
+                <div class="col-6">
+                  <p>
+                    <label for="input__webaddress">Web Address</label>
+                    <input
+                      id="input__webaddress"
+                      type="url"
+                      placeholder="http://yoursite.com"
+                    />
+                  </p>
+                </div>
+                <div class="col-6">
+                  <p>
+                    <label for="input__emailaddress">Email Address</label>
+                    <input
+                      id="input__emailaddress"
+                      type="email"
+                      placeholder="name@email.com"
+                    />
+                  </p>
+                </div>  
+              </div>
               <p>
                 <label for="input__phone">Phone Number</label>
                 <input
@@ -581,6 +588,7 @@ P R E F O R M A T T E D T E X T
                   placeholder="Enter Search Term"
                 />
               </p>
+              <div class="grouped evenly">
               <p>
                 <label for="input__text2">Number Input</label>
                 <input
@@ -599,6 +607,7 @@ P R E F O R M A T T E D T E X T
                 />
                 <span>This is an error message.</span>
               </p>
+              
               <p>
                 <label for="input__text4" class="success">Valid</label>
                 <input
@@ -608,6 +617,8 @@ P R E F O R M A T T E D T E X T
                   placeholder="Text Input"
                 />
               </p>
+
+              </div>
               <p>
                 <label for="input__text5">Disabled Text Input</label>
                 <input
@@ -730,8 +741,9 @@ P R E F O R M A T T E D T E X T
               </ul>
             </fieldset>
             <p><a href="#top">[Top]</a></p>
+
             <fieldset id="forms__textareas" class="borderless">
-              <legend>Textareas <small>(borderless fieldset)</small></legend>
+              <legend>Textareas <small>(info)</small></legend>
               <p>
                 <label for="textarea">Textarea</label>
                 <textarea
@@ -765,6 +777,7 @@ P R E F O R M A T T E D T E X T
                   <span>This is an error message.</span>
                 </ruby>
               </p>
+              <div class="grouped evenly">
               <p>
                 <label for="idm">Month input</label>
                 <input type="month" id="idm" value="1970-01" />
@@ -775,6 +788,7 @@ P R E F O R M A T T E D T E X T
                   <input type="week" id="idw" value="1970-W01" />
                 </ruby>
               </p>
+              </div>
               <p>
                 <label for="idt">Datetime input</label>
                 <input type="datetime" id="idt" value="1970-01-01T00:00:00Z" />
@@ -817,6 +831,84 @@ P R E F O R M A T T E D T E X T
               </p>
             </fieldset>
             <p><a href="#top">[Top]</a></p>
+
+            <fieldset id="forms__html5" class="labels-left align-right">
+              <legend>HTML5 inputs <small>Right Aligned Labels</small></legend>
+              <p>
+                <label for="ic">Color input</label>
+                <input type="color" id="ic" value="#212AFB" onInput="updateAccentColor(event)" />
+              </p>
+              <p>
+                <label for="in">Number input</label>
+                <input type="number" id="in" min="0" max="10" value="5" />
+              </p>
+              <p>
+                <label for="ir">Range input</label>
+                <input type="range" id="ir" value="10" />
+              </p>
+              <p class="error">
+                <label for="idd">Date input</label>
+                <ruby>
+                  <input type="date" id="idd" value="1970-01-01" />
+                  <span>This is an error message.</span>
+                </ruby>
+              </p>
+              <div class="grouped evenly">
+              <p>
+                <label for="idm">Month input</label>
+                <input type="month" id="idm" value="1970-01" />
+              </p>
+              <p>
+                <label for="idw">Week input</label>
+                <ruby>
+                  <input type="week" id="idw" value="1970-W01" />
+                </ruby>
+              </p>
+              </div>
+              <p>
+                <label for="idt">Datetime input</label>
+                <input type="datetime" id="idt" value="1970-01-01T00:00:00Z" />
+              </p>
+              <p>
+                <label for="idtl">Datetime-local input</label>
+                <input
+                  type="datetime-local"
+                  id="idtl"
+                  value="1970-01-01T00:00"
+                />
+              </p>
+              <p class="grouped">
+                <label for="input__texts">Search</label>
+                <input
+                  type="search"
+                  name="input__texts"
+                  id="input__texts"
+                  placeholder="Search"
+                />
+                <button class="button icon-only">
+                  <img src="https://icongr.am/feather/search.svg?size=16" />
+                </button>
+              </p>
+
+              <p class="grouped">
+                <label for="input__textsx">Address</label>
+                <ruby>
+                  <input
+                    type="search"
+                    name="input__textsx"
+                    id="input__textsx"
+                    placeholder="Search"
+                  />
+                  <span>Try again</span>
+                </ruby>
+                <button class="button icon-only">
+                  <img src="https://icongr.am/feather/search.svg?size=16" />
+                </button>
+              </p>
+            </fieldset>
+            <p><a href="#top">[Top]</a></p>
+
+
             <fieldset id="forms__action">
               <legend>Action buttons</legend>
               <p>

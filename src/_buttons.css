@@ -170,7 +170,7 @@ button:disabled:hover {
 }
 
 .grouped>*:not(:last-child) {
-  margin-right: 16px;
+  margin-right: 1.6rem;
 }
 
 .grouped.gapless>* {
@@ -212,4 +212,8 @@ button:disabled:hover {
 .grouped-vertical.gapless>*:last-child {
   border-bottom-left-radius: 4px !important;
   border-bottom-right-radius: 4px !important;
+}
+
+.grouped.evenly>* {
+  flex: 1;
 }
