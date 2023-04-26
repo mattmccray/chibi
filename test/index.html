@@ -535,7 +535,7 @@ P R E F O R M A T T E D T E X T
             <h1>Form elements</h1>
           </header>
           <form>
-            <fieldset id="forms__input">
+            <fieldset id="forms__input" >
               <legend>Input fields</legend>
               <p>
                 <label for="input__text">Text Input</label>
@@ -590,13 +590,14 @@ P R E F O R M A T T E D T E X T
                 />
               </p>
               <p class="error">
-                <label for="input__text3" class="error">Error</label>
+                <label for="input__text3">Error</label>
                 <input
                   id="input__text3"
                   class="error"
                   type="text"
                   placeholder="Text Input"
                 />
+                <span>This is an error message.</span>
               </p>
               <p>
                 <label for="input__text4" class="success">Valid</label>
@@ -686,7 +687,9 @@ P R E F O R M A T T E D T E X T
                 </li>
               </ul>
             </fieldset>
+
             <p><a href="#top">[Top]</a></p>
+            
             <fieldset id="forms__radio">
               <legend>Radio buttons</legend>
               <ul class="list is-bare">
@@ -755,9 +758,12 @@ P R E F O R M A T T E D T E X T
                 <label for="ir">Range input</label>
                 <input type="range" id="ir" value="10" />
               </p>
-              <p>
+              <p class="error">
                 <label for="idd">Date input</label>
-                <input type="date" id="idd" value="1970-01-01" />
+                <ruby>
+                  <input type="date" id="idd" value="1970-01-01" />
+                  <span>This is an error message.</span>
+                </ruby>
               </p>
               <p>
                 <label for="idm">Month input</label>
@@ -765,7 +771,9 @@ P R E F O R M A T T E D T E X T
               </p>
               <p>
                 <label for="idw">Week input</label>
-                <input type="week" id="idw" value="1970-W01" />
+                <ruby>
+                  <input type="week" id="idw" value="1970-W01" />
+                </ruby>
               </p>
               <p>
                 <label for="idt">Datetime input</label>
@@ -787,6 +795,22 @@ P R E F O R M A T T E D T E X T
                   id="input__texts"
                   placeholder="Search"
                 />
+                <button class="button icon-only">
+                  <img src="https://icongr.am/feather/search.svg?size=16" />
+                </button>
+              </p>
+
+              <p class="grouped">
+                <label for="input__textsx">Address</label>
+                <ruby>
+                  <input
+                    type="search"
+                    name="input__textsx"
+                    id="input__textsx"
+                    placeholder="Search"
+                  />
+                  <span>Try again</span>
+                </ruby>
                 <button class="button icon-only">
                   <img src="https://icongr.am/feather/search.svg?size=16" />
                 </button>

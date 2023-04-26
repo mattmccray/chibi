@@ -570,9 +570,9 @@ fieldset.labels-left p {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -582,6 +582,19 @@ fieldset.labels-left p label {
   width: var(--label-width);
   margin-right: 1rem;
 }
+fieldset.labels-left p ruby {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+/* fieldset p span {
+  padding-left: 1rem;
+} */
 fieldset p:focus-within label {
   color: var(--color-primary);
 }
@@ -654,22 +667,33 @@ textarea.success {
 select {
   -webkit-appearance: none;
   background: var(--input-bg-color) no-repeat 100%;
-  background-size: 1ex;
+  background-size: 0.8ex;
   background-origin: content-box;
   stroke: var(--input-color);
   fill: var(--input-color);
-  background-image: url('data:image/svg+xml;utf8,<svg width="65" height="46" viewBox="0 0 65 46" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.53967 2L32.5397 42L62.5397 2" stroke="dimgrey" stroke-width="6" stroke-linecap="round" /></svg>');
+  /* background-image: url('data:image/svg+xml;utf8,<svg width="65" height="46" viewBox="0 0 65 46" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.53967 2L32.5397 42L62.5397 2" stroke="dimgrey" stroke-width="6" stroke-linecap="round" /></svg>'); */
+  background-image: url('data:image/svg+xml;utf8,<svg width="64" height="134" viewBox="0 0 64 134" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 90L32 130L62 90" stroke="dimgrey" stroke-width="4" stroke-linecap="round"/><path d="M2 44L32 4L62 44" stroke="dimgrey" stroke-width="4" stroke-linecap="round"/></svg>');
 }
+/*
+
+<svg width="64" height="121" viewBox="0 0 64 121" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 77L32 117L62 77" stroke="dim-gray" stroke-width="4" stroke-linecap="round"/><path d="M2 44L32 4L62 44" stroke="dim-gray" stroke-width="4" stroke-linecap="round"/></svg>
+
+<svg width="64" height="134" viewBox="0 0 64 134" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 90L32 130L62 90" stroke="dimgrey" stroke-width="4" stroke-linecap="round"/><path d="M2 44L32 4L62 44" stroke="dimgrey" stroke-width="4" stroke-linecap="round"/></svg>
+
+*/
 [type="checkbox"],
 [type="radio"] {
   width: 1.6rem;
   height: 1.6rem;
 }
-label.error {
+label.error, span.error {
   color: var(--color-error) !important;
 }
 label.success {
   color: var(--color-success) !important;
+}
+.error span {
+  color: var(--color-error) !important;
 }
 /* BUTTONS */
 .button,
