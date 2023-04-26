@@ -769,7 +769,9 @@ button:active {
 input:disabled,
 button:disabled,
 input:disabled:hover,
-button:disabled:hover {
+button:disabled:hover,
+*:disabled,
+*[disabled] {
   opacity: 0.4;
   cursor: default;
   /* cursor: not-allowed; */
