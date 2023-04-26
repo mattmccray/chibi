@@ -564,9 +564,11 @@ fieldset input,
 fieldset textarea {
   max-width: -webkit-fill-available;
 }
-/* fieldset.borderless {
-  border: none;
-} */
+fieldset.clear {
+  padding: 0;
+  border-radius: 0;
+  background-color: inherit;
+}
 fieldset.labels-left {
   --label-width: 20rem;
 }
