@@ -659,7 +659,9 @@ textarea[type="text"]:focus {
     0 0 0px 3px var(--color-primary); */
 }
 input.error:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="color"]):not([type="button"]):not([type="reset"]),
-textarea.error {
+textarea.error,
+p.error input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="color"]):not([type="button"]):not([type="reset"]),
+p.error textarea {
   border-color: var(--color-error);
 }
 input.success:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="color"]):not([type="button"]):not([type="reset"]),
