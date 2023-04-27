@@ -4,10 +4,11 @@
 @import "_light.css";
 @import "_grid.css";
 @import "_form.css";
-@import "_buttons.css";
+@import "_button.css";
 @import "_nav.css";
 @import "_card.css";
 @import "_tab.css";
+@import "_table.css";
 @import "_tag.css";
 @import "_dropdown.css";
 @import "_util.css";
