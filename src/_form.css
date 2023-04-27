@@ -37,6 +37,7 @@ fieldset.labels-left p label {
   width: var(--label-width);
   min-width: var(--label-width);
   margin-right: 1.6rem;
+  /* padding-top: 8px; */
 }
 
 
@@ -104,6 +105,10 @@ textarea[type="text"] {
   /* transition: all 0.2s ease-in-out; */
   display: block;
   width: 100%;
+}
+
+input[type=range] {
+  padding: 0px !important;
 }
 
 /* input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="color"]):not([type="button"]):not([type="reset"]):not(:disabled):hover,

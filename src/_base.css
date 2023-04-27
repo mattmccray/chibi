@@ -29,14 +29,16 @@
 }
 
 html {
-  box-sizing: border-box;
-  /* font-size: 62.5%; */
-  font-size: 10px;
-  line-height: 1.15;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
   accent-color: var(--color-primary);
+  box-sizing: border-box;
   color-scheme: dark light;
+  font-size: 10px;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
 }
 
 *, *:before, *:after {
@@ -186,13 +188,13 @@ table {
   text-align: left;
 }
 
-table.striped tr:nth-of-type(2n),
-tbody.striped tr:nth-of-type(2n) {
+/* table.striped tbody tr:nth-of-type(even),
+tbody.striped tr:nth-of-type(even) {
   background-color: var(--bg-secondary-color);
-}
+} */
 
-table.striped tr:nth-of-type(1n),
-tbody.striped tr:nth-of-type(1n) {
+table.striped tbody tr:nth-of-type(odd),
+tbody.striped tr:nth-of-type(odd) {
   background-color: var(--card-bg-color);
 }
 
@@ -201,14 +203,24 @@ table.compact td {
   padding: 0.5rem 0.4rem;
 }
 
+table tbody {
+  border: 1px solid var(--color-darkGrey);
+  /* border: 2px solid var(--bg-secondary-color); */
+  /* border: 2px solid var(--card-border-color); */
+}
+
 td,
 th {
   vertical-align: middle;
   padding: 1.2rem 0.4rem;
 }
 
-thead {
+/* thead {
   border-bottom: 1px solid var(--color-lightGrey);
+} */
+
+thead th {
+  padding-bottom: 0px;
 }
 
 thead th, tfoot th {
@@ -220,6 +232,10 @@ thead th, tfoot th {
 
 tfoot {
   border-top: 1px solid var(--color-lightGrey);
+}
+
+tfoot th {
+  padding-top: 0px;
 }
 
 code,

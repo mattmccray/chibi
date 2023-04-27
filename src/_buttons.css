@@ -24,7 +24,7 @@ button {
 }
 
 .button+.button {
-  margin-left: 1rem;
+  margin-left: 1.6rem;
 }
 
 .button:hover,
@@ -180,8 +180,12 @@ button:disabled:hover,
   margin-right: 1.6rem;
 } */
 
-.grouped>*:not(:first-child) {
-  margin-left: 1.6rem;
+.grouped>*:not(:last-child) {
+  margin-right: 1.6rem;
+}
+
+.grouped .button+.button {
+  margin-left: 0;
 }
 
 .grouped.gapless>* {
