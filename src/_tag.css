@@ -6,6 +6,7 @@
   padding: 0.5rem;
   line-height: 1;
   letter-spacing: 0.5px;
+  margin-right: 1rem;
 }
 
 .tag.is-small {
@@ -18,8 +19,8 @@
   font-size: 1.125em;
 }
 
-.tag+.tag {
-  margin-left: 1rem;
+.tag:last-of-type {
+  margin-right: 01rem;
 }
 
 .tag.primary {
