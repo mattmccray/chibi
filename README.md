@@ -10,7 +10,7 @@
 
 <br>
 
-- ⚡️&nbsp; Super light-weight.
+- ⚡️&nbsp; Super light-weight. (~5 KB min/gzip)
 - ⛔️&nbsp; No preprocessor, just plug-n-play
 - 📐&nbsp; Flex based 12 column grid
 - 🌈&nbsp; Easy to extend with CSS variables

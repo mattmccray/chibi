@@ -1,0 +1,50 @@
+/* Dark by default */
+:root {
+  --bg-color: #222;
+  --bg-secondary-color: #1D1D1D;
+  --font-color: #D0D0D0;
+  --color-lightGrey: #666;
+  --color-grey: #999;
+  --color-darkGrey: #777;
+  --card-bg-color: #333;
+  --card-shadow-color: #131211;
+  --input-bg-color: #333;
+  --input-color: var(--font-color);
+
+  --color-primary: dodgerblue;
+  --color-primary-contrast: #ffffff;
+  --color-error: #d43939;
+  --color-success: #28bd14;
+  --color-warning: orange;
+  --color-highlight: yellow;
+
+  --font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
+  --font-family-sans: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next",
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  --font-family-serif: Georgia, "Times New Roman", Times, serif;
+  --font-size: 1.6rem;
+  --grid-gutter: 1.6rem;
+  --grid-maxWidth: 120rem;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #EEE;
+    --bg-secondary-color: #DEDEDE;
+    --card-bg-color: #FFF;
+    --card-shadow-color: #CCC;
+
+    --color-primary: dodgerblue;
+    --color-primary-contrast: #ffffff;
+    --color-lightGrey: #d2d6dd;
+    --color-grey: #747681;
+    --color-darkGrey: #3f4144;
+    --color-error: #d43939;
+    --color-success: #28bd14;
+    --color-warning: orange;
+    --color-highlight: yellow;
+    --font-color: #333333;
+    --input-bg-color: #FFF;
+  }
+}

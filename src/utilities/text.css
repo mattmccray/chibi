@@ -1,0 +1,23 @@
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.text-normal {
+  font-weight: normal;
+}
+
+.text-thick {
+  font-weight: 600;
+}

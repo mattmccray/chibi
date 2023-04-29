@@ -1,0 +1,64 @@
+.grouped {
+  display: flex;
+}
+
+/* .grouped>*:not(:last-child) {
+  margin-right: 1.6rem;
+} */
+
+.grouped>*:not(:last-child) {
+  margin-right: 1.6rem;
+}
+
+.grouped .button+.button {
+  margin-left: 0;
+}
+
+.grouped.gapless>* {
+  margin: 0 0 0 -1px !important;
+  border-radius: 0 !important;
+}
+
+.grouped.gapless>*:first-child {
+  margin: 0 !important;
+  border-radius: 4px 0 0 4px !important;
+}
+
+.grouped.gapless>*:last-child {
+  border-radius: 0 4px 4px 0 !important;
+}
+
+.grouped-vertical {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .grouped-vertical>*:not(:last-child) {
+  margin: 0 0 1.6rem 0 !important;
+} */
+
+.grouped-vertical>*:not(:first-child) {
+  margin: 1.6rem 0 0 0 !important;
+}
+
+.grouped-vertical.gapless>* {
+  margin: -1px 0 0 0 !important;
+  border-radius: 0 !important;
+}
+
+.grouped-vertical.gapless>*:first-child {
+  margin: 0 !important;
+  border-top-left-radius: 4px !important;
+  border-top-right-radius: 4px !important;
+}
+
+.grouped-vertical.gapless>*:last-child {
+  border-bottom-left-radius: 4px !important;
+  border-bottom-right-radius: 4px !important;
+}
+
+.grouped.evenly>* {
+  flex: 1;
+}
