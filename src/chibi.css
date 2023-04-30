@@ -1,24 +1,23 @@
 /*!chibi.css v1.2.0 | MIT License | github.com/mattmccray/chibi 
   based on: chota.css v0.8.0 | MIT License | github.com/jenil/chota */
 @import "base/button.css";
-@import "base/forms.css";
+@import "base/form.css";
 @import "base/reset.css";
-@import "base/scrollbars.css";
-@import "base/tables.css";
-@import "base/vars.css";
+@import "base/scrollbar.css";
+@import "base/table.css";
+@import "base/var.css";
 
 @import "components/card.css";
 @import "components/dropdown.css";
-@import "components/grid.css";
-@import "components/grouped.css";
+@import "components/layout.css";
+@import "components/group.css";
 @import "components/nav";
-@import "components/tabs";
+@import "components/tab";
 @import "components/tag";
 
 @import "utilities/alignment.css";
 @import "utilities/animation.css";
-@import "utilities/colors.css";
-@import "utilities/flags.css";
-@import "utilities/flex.css";
+@import "utilities/color.css";
+@import "utilities/other.css";
 @import "utilities/responsive.css";
 @import "utilities/text.css";

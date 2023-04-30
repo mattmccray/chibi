@@ -49,13 +49,6 @@
   top: 0;
 }
 
-.is-paddingless {
-  padding: 0 !important;
-}
-
-.is-marginless {
-  margin: 0 !important;
-}
 
 .is-pointer {
   cursor: pointer !important;
@@ -76,4 +69,12 @@
 .is-bare {
   appearance: unset;
   list-style: none;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.no-margin {
+  margin: 0 !important;
 }

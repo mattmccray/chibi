@@ -18,7 +18,7 @@
 - ✅&nbsp; Good Semantics
 - 🌜&nbsp; Automatic light/dark theme
 
-<small>***Chibi*** (ちび) means little in Japanese.</small> <small>Based on [Chota.css by Jenil Gogari](https://jenil.github.io/chota/)</small>
+<small>***Chibi*** (ちび) means little in Japanese.</small> <small>Originally forked from [Chota.css by Jenil Gogari](https://jenil.github.io/chota/)</small>
 
 
 
